@@ -16,6 +16,8 @@ env:
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
   INFRACOST_API_KEY: ${{ secrets.INFRACOST_API_KEY }}
   TF_TOKEN: ${{ secrets.TF_TOKEN }}
+  TF_VERSION: ${{ vars.TF_VERSION }}
+  TF_AWS_PROVIDER_VERSION: ${{ vars.TF_AWS_PROVIDER_VERSION }}
   TG_TF_REGISTRY_TOKEN: ${{ secrets.TF_TOKEN }}
 
 jobs:
